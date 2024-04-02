@@ -73,11 +73,10 @@ def main():
   gmsh.model.mesh.generate(2)
 
   # Save the mesh
-  gmsh.write("extrude_example.msh")
+  gmsh.write("incompatible_volume_example.msh")
 
   # Finalize GMSH
   gmsh.finalize()
-
 
 
 if __name__== "__main__":

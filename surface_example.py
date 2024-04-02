@@ -1,7 +1,7 @@
 
 import gmsh
 
-def get_rectangle(center = [0,0],length = 3.0, width = 5.0,mesh_size=0.1):
+def get_rectangle(center = [0,0],length = 3.0, width = 3.0,mesh_size=1):
 
   # Define the coordinates of the square
   x_min = center[0] - length / 2

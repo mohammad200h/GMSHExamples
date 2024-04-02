@@ -1,0 +1,13 @@
+Info    : Reading 'compatible_volume_example.msh'...
+Info    : 53 entities
+Info    : 1234 nodes
+Info    : 6500 elements
+Info    : Done reading 'compatible_volume_example.msh'
+evtags::[827 885 828 ...  62 971 242]
+elements_reshaped::[[ 827  885  828 1182]
+ [ 539  489  549 1217]
+ [ 626  725  628 1115]
+ ...
+ [ 923  971   62  242]
+ [1111  971   62  925]
+ [1111   62  971  242]]
